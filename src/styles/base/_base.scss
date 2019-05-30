@@ -1,0 +1,30 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+    background-color: $blue;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    &:disabled {
+        cursor: default;
+    }
+}
+
+a {
+    color: $purple;
+}
+
+.is-active {
+    color: green;
+}
+
+.body-section {
+    padding: 15px 5px;
+    border-top: 1px solid grey;
+}
